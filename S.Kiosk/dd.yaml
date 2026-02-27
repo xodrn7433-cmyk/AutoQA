@@ -1,0 +1,36 @@
+appId: com.banaple.foodproapp.banapresso
+---
+
+- tapOn:
+    id: image_menu
+
+- waitForAnimationToEnd
+
+- assertVisible: "따뜻한 음료"
+
+- tapOn: 취소
+
+
+- tapOn: 아이스 아메리카노
+
+- tapOn: "차가운 음료"
+- assertVisible: "2,000원"
+
+
+- tapOn:
+    text: 아이스크림 추가
+    index: 1
+- assertVisible: "2,500원"
+- tapOn: "텀블러에 담아주세요"
+- tapOn: "확인"
+
+- tapOn:
+    text: "1"
+- tapOn:
+    rightOf: "1"
+- assertVisible: "4,500원"
+
+- tapOn: 취소
+- tapOn: "통팥밀크티"
+- assertVisible: "따뜻한 음료"
+- assertVisible: "차가운 음료"

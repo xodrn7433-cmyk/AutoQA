@@ -1,0 +1,80 @@
+17:25:52.465 [ INFO] maestro.cli.report.TestDebugReporter.logSystemInfo: Debug output path: C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\.\debug\.maestro\tests\2026-02-20_172552
+17:25:52.468 [ INFO] MAESTRO.logSystemInfo: ---- System Info ----
+17:25:52.469 [ INFO] MAESTRO.logSystemInfo: Maestro Version: 2.1.0
+17:25:52.470 [ INFO] MAESTRO.logSystemInfo: CI: Undefined
+17:25:52.470 [ INFO] MAESTRO.logSystemInfo: OS Name: Windows 11
+17:25:52.471 [ INFO] MAESTRO.logSystemInfo: OS Version: 10.0
+17:25:52.471 [ INFO] MAESTRO.logSystemInfo: Architecture: amd64
+17:25:52.473 [ INFO] MAESTRO.logSystemInfo: Java Version: 21
+17:25:52.473 [ INFO] MAESTRO.logSystemInfo: Xcode Version: null
+17:25:52.473 [ INFO] MAESTRO.logSystemInfo: Flutter Version: Undefined
+17:25:52.473 [ INFO] MAESTRO.logSystemInfo: Flutter Channel: Undefined
+17:25:52.473 [ INFO] MAESTRO.logSystemInfo: ---------------------
+17:25:53.167 [DEBUG] io.micrometer.common.util.internal.logging.InternalLoggerFactory.newDefaultFactory: Using SLF4J as the default logging framework
+17:25:53.233 [ INFO] maestro.cli.command.TestCommand.runShardSuite: [shard 1] Selected device ADB02P2403110192 using port 7001 with execution plan ExecutionPlan(flowsToRun=[C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\pickup.yaml], sequence=FlowSequence(flows=[], continueOnFailure=true), workspaceConfig=WorkspaceConfig(flows=null, includeTags=null, excludeTags=null, executionOrder=null, baselineBranch=null, notifications=null, disableRetries=false, platform=PlatformConfiguration(android=AndroidConfiguration(disableAnimations=false), ios=IOSConfiguration(disableAnimations=false, snapshotKeyHonorModalViews=null)), testOutputDir=null))
+17:25:53.542 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow:  Running flow pickup
+17:25:53.548 [ INFO] maestro.Maestro.cachedDeviceInfo_delegate$lambda$0: Getting device info
+17:25:53.793 [ INFO] maestro.Maestro.cachedDeviceInfo_delegate$lambda$0: Got device info: DeviceInfo(platform=ANDROID, widthPixels=1080, heightPixels=1920, widthGrid=1080, heightGrid=1920)
+17:25:53.855 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Define variables RUNNING
+17:25:53.870 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Define variables COMPLETED
+17:25:53.871 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Apply configuration RUNNING
+17:25:53.872 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Apply configuration COMPLETED
+17:25:53.872 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Tap on id: btn_takeout RUNNING
+17:25:54.105 [ INFO] maestro.Maestro.tap-BUbHBYE: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=테이크아웃
+(포장), accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=com.banaple.bnapresso.windowskiosk:id/btn_takeout, clickable=false, bounds=[630,1539][991,1710], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=630, y=1539, width=361, height=171))
+17:25:55.096 [ INFO] maestro.Maestro.tap-BUbHBYE: Refreshed element
+17:25:55.098 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Tapping at (810, 1624) using hierarchy based logic for wait
+17:25:56.763 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Something has changed in the UI judging by view hierarchy. Proceed.
+17:25:56.764 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Tap on id: btn_takeout COMPLETED
+17:25:56.764 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Assert that "1,800원" is visible RUNNING
+17:25:57.158 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Assert that "1,800원" is visible COMPLETED
+17:25:57.158 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Tap on "처음으로" RUNNING
+17:25:57.474 [ INFO] maestro.Maestro.tap-BUbHBYE: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=처음으로, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=com.banaple.bnapresso.windowskiosk:id/btn_home_text, clickable=false, bounds=[100,33][212,78], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=100, y=33, width=112, height=45))
+17:25:58.554 [ INFO] maestro.Maestro.tap-BUbHBYE: Refreshed element
+17:25:58.554 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Tapping at (156, 55) using hierarchy based logic for wait
+17:25:59.259 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Something has changed in the UI judging by view hierarchy. Proceed.
+17:25:59.259 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Tap on "처음으로" COMPLETED
+17:25:59.259 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Tap on "확인" RUNNING
+17:25:59.327 [ INFO] maestro.Maestro.tap-BUbHBYE: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=확인, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=com.banaple.bnapresso.windowskiosk:id/btn_ok, clickable=true, bounds=[545,1011][866,1111], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=true, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=545, y=1011, width=321, height=100))
+17:26:00.194 [ INFO] maestro.Maestro.tap-BUbHBYE: Refreshed element
+17:26:00.194 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Tapping at (705, 1061) using hierarchy based logic for wait
+17:26:01.704 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Something has changed in the UI judging by view hierarchy. Proceed.
+17:26:01.704 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Tap on "확인" COMPLETED
+17:26:01.704 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Tap on id: btn_store RUNNING
+17:26:01.947 [ INFO] maestro.Maestro.tap-BUbHBYE: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=매장에서
+먹을게요, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=com.banaple.bnapresso.windowskiosk:id/btn_store, clickable=false, bounds=[124,1540][416,1708], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=124, y=1540, width=292, height=168))
+17:26:02.913 [ INFO] maestro.Maestro.tap-BUbHBYE: Refreshed element
+17:26:02.914 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Tapping at (270, 1624) using hierarchy based logic for wait
+17:26:04.283 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Something has changed in the UI judging by view hierarchy. Proceed.
+17:26:04.283 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Tap on id: btn_store COMPLETED
+17:26:04.283 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Tap on "확인" RUNNING
+17:26:04.504 [ INFO] maestro.Maestro.tap-BUbHBYE: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=확인, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=com.banaple.bnapresso.windowskiosk:id/btn_ok, clickable=true, bounds=[204,1334][876,1481], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=true, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=204, y=1334, width=672, height=147))
+17:26:05.781 [ INFO] maestro.Maestro.tap-BUbHBYE: Refreshed element
+17:26:05.781 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Tapping at (540, 1407) using hierarchy based logic for wait
+17:26:07.688 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Something has changed in the UI judging by view hierarchy. Proceed.
+17:26:07.689 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Tap on "확인" COMPLETED
+17:26:07.689 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Assert that "2,500원" is visible RUNNING
+17:26:07.917 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Assert that "2,500원" is visible COMPLETED
+17:26:07.917 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Tap on "테이크아웃" RUNNING
+17:26:08.153 [ INFO] maestro.Maestro.tap-BUbHBYE: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=테이크아웃, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=com.banaple.bnapresso.windowskiosk:id/btn_place_takeout, clickable=true, bounds=[839,26][1047,80], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.CheckedTextView, important-for-accessibility=true, error=}, children=[], clickable=true, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=839, y=26, width=208, height=54))
+17:26:09.167 [ INFO] maestro.Maestro.tap-BUbHBYE: Refreshed element
+17:26:09.167 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Tapping at (943, 53) using hierarchy based logic for wait
+17:26:10.065 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Something has changed in the UI judging by view hierarchy. Proceed.
+17:26:10.065 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Tap on "테이크아웃" COMPLETED
+17:26:10.065 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Assert that "1,800원" is visible RUNNING
+17:26:27.561 [ERROR] maestro.orchestra.Orchestra.executeCommands: [Command execution] CommandFailed: Assertion is false: "1,800원" is visible
+17:26:27.561 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$9: Assert that "1,800원" is visible FAILED
+17:26:27.572 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+17:26:27.572 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+17:26:28.526 [ INFO] maestro.cli.report.TestDebugReporter.deleteOldFiles: Performing purge of logs older than 14 days from C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\.\debug\.maestro\tests
+17:26:28.847 [ERROR] maestro.cli.session.MaestroSessionManager.newSession$lambda$0: Failed to record heartbeat
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep0(Native Method) ~[?:?]
+	at java.base/java.lang.Thread.sleep(Unknown Source) [?:?]
+	at maestro.cli.session.MaestroSessionManager.newSession$lambda$0(MaestroSessionManager.kt:93) ~[maestro-cli-2.1.0.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?]

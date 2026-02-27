@@ -1,0 +1,22 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn:
+    id: date
+- tapOn: 지난달
+- tapOn: "23"
+- tapOn: "확인"
+- tapOn: "검색"
+- tapOn: "오늘 전체 조회"
+
+- evalScript: ${var d=new Date(); output.today=d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2)}
+- assertVisible: ${output.today}
+- evalScript: ${console.log('today='+output.today)}
+
+
+- tapOn: "주문 리스트"
+- tapOn:
+    id: date
+- tapOn: "1"
+- tapOn: "확인"
+- tapOn: "검색"
+

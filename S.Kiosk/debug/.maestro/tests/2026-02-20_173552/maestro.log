@@ -1,0 +1,27 @@
+17:35:52.651 [ INFO] maestro.cli.report.TestDebugReporter.logSystemInfo: Debug output path: C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\.\debug\.maestro\tests\2026-02-20_173552
+17:35:52.654 [ INFO] MAESTRO.logSystemInfo: ---- System Info ----
+17:35:52.655 [ INFO] MAESTRO.logSystemInfo: Maestro Version: 2.1.0
+17:35:52.656 [ INFO] MAESTRO.logSystemInfo: CI: Undefined
+17:35:52.657 [ INFO] MAESTRO.logSystemInfo: OS Name: Windows 11
+17:35:52.657 [ INFO] MAESTRO.logSystemInfo: OS Version: 10.0
+17:35:52.657 [ INFO] MAESTRO.logSystemInfo: Architecture: amd64
+17:35:52.660 [ INFO] MAESTRO.logSystemInfo: Java Version: 21
+17:35:52.662 [ INFO] MAESTRO.logSystemInfo: Xcode Version: null
+17:35:52.664 [ INFO] MAESTRO.logSystemInfo: Flutter Version: Undefined
+17:35:52.668 [ INFO] MAESTRO.logSystemInfo: Flutter Channel: Undefined
+17:35:52.668 [ INFO] MAESTRO.logSystemInfo: ---------------------
+17:35:53.373 [DEBUG] io.micrometer.common.util.internal.logging.InternalLoggerFactory.newDefaultFactory: Using SLF4J as the default logging framework
+17:35:53.373 [ INFO] maestro.cli.command.TestCommand.runShardSuite: [shard 1] Selected device ADB02P2403110192 using port 7001 with execution plan ExecutionPlan(flowsToRun=[C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\admin_mode.yaml], sequence=FlowSequence(flows=[], continueOnFailure=true), workspaceConfig=WorkspaceConfig(flows=null, includeTags=null, excludeTags=null, executionOrder=null, baselineBranch=null, notifications=null, disableRetries=false, platform=PlatformConfiguration(android=AndroidConfiguration(disableAnimations=false), ios=IOSConfiguration(disableAnimations=false, snapshotKeyHonorModalViews=null)), testOutputDir=null))
+17:35:53.594 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow:  Running flow admin_mode
+17:35:53.602 [ INFO] maestro.Maestro.cachedDeviceInfo_delegate$lambda$0: Getting device info
+17:35:53.834 [ INFO] maestro.Maestro.cachedDeviceInfo_delegate$lambda$0: Got device info: DeviceInfo(platform=ANDROID, widthPixels=1080, heightPixels=1920, widthGrid=1080, heightGrid=1920)
+17:35:53.902 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Define variables RUNNING
+17:35:53.905 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Define variables COMPLETED
+17:35:53.905 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Apply configuration RUNNING
+17:35:53.905 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Apply configuration COMPLETED
+17:35:53.906 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Assert that "제주 말차" is visible RUNNING
+17:36:10.986 [ERROR] maestro.orchestra.Orchestra.executeCommands: [Command execution] CommandFailed: Assertion is false: "제주 말차" is visible
+17:36:10.987 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$9: Assert that "제주 말차" is visible FAILED
+17:36:10.989 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+17:36:10.990 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+17:36:14.064 [ INFO] maestro.cli.report.TestDebugReporter.deleteOldFiles: Performing purge of logs older than 14 days from C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\.\debug\.maestro\tests

@@ -1,0 +1,7 @@
+appId: com.banaple.foodproapp.banapresso
+---
+# 첫 배너 캡쳐
+- assertVisible: "제주 말차"
+- waitForAnimationToEnd
+- assertVisible: "통팥 듬뿍"
+

@@ -1,0 +1,41 @@
+15:02:27.740 [ INFO] maestro.cli.report.TestDebugReporter.logSystemInfo: Debug output path: C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\.\debug\.maestro\tests\2026-02-24_150227
+15:02:27.742 [ INFO] MAESTRO.logSystemInfo: ---- System Info ----
+15:02:27.742 [ INFO] MAESTRO.logSystemInfo: Maestro Version: 2.2.0
+15:02:27.743 [ INFO] MAESTRO.logSystemInfo: CI: Undefined
+15:02:27.744 [ INFO] MAESTRO.logSystemInfo: OS Name: Windows 11
+15:02:27.744 [ INFO] MAESTRO.logSystemInfo: OS Version: 10.0
+15:02:27.744 [ INFO] MAESTRO.logSystemInfo: Architecture: amd64
+15:02:27.748 [ INFO] MAESTRO.logSystemInfo: Java Version: 21
+15:02:27.749 [ INFO] MAESTRO.logSystemInfo: Xcode Version: null
+15:02:27.752 [ INFO] MAESTRO.logSystemInfo: Flutter Version: Undefined
+15:02:27.756 [ INFO] MAESTRO.logSystemInfo: Flutter Channel: Undefined
+15:02:27.756 [ INFO] MAESTRO.logSystemInfo: ---------------------
+15:02:28.342 [DEBUG] io.micrometer.common.util.internal.logging.InternalLoggerFactory.newDefaultFactory: Using SLF4J as the default logging framework
+15:02:28.378 [ INFO] maestro.cli.command.TestCommand.runShardSuite: [shard 1] Selected device ADB02P2403110192 using port 7001 with execution plan ExecutionPlan(flowsToRun=[C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\Kiosk_03_04.yaml], sequence=FlowSequence(flows=[], continueOnFailure=true), workspaceConfig=WorkspaceConfig(flows=null, includeTags=null, excludeTags=null, executionOrder=null, baselineBranch=null, notifications=null, disableRetries=false, platform=PlatformConfiguration(android=AndroidConfiguration(disableAnimations=false), ios=IOSConfiguration(disableAnimations=false, snapshotKeyHonorModalViews=null)), testOutputDir=null))
+15:02:33.519 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow:  Running flow Kiosk_03_04
+15:02:33.525 [ INFO] maestro.Maestro.cachedDeviceInfo_delegate$lambda$0: Getting device info
+15:02:34.119 [ INFO] maestro.Maestro.cachedDeviceInfo_delegate$lambda$0: Got device info: DeviceInfo(platform=ANDROID, widthPixels=1080, heightPixels=1920, widthGrid=1080, heightGrid=1920)
+15:02:34.180 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Define variables RUNNING
+15:02:34.183 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Define variables COMPLETED
+15:02:34.183 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Apply configuration RUNNING
+15:02:34.183 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Apply configuration COMPLETED
+15:02:34.184 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Tap x5 on id: btn_admin_view RUNNING
+15:02:35.220 [ INFO] maestro.Maestro.tap-BUbHBYE: Tapping on element: TapRepeat(repeat=5, delay=10) UiElement(treeNode=TreeNode(attributes={text=, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=com.banaple.bnapresso.windowskiosk:id/btn_admin_view, clickable=true, bounds=[343,0][437,120], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.view.View, important-for-accessibility=true, error=}, children=[], clickable=true, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=343, y=0, width=94, height=120))
+15:02:36.308 [ INFO] maestro.Maestro.tap-BUbHBYE: Refreshed element
+15:02:36.309 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Tapping at (390, 60) using hierarchy based logic for wait
+15:02:38.418 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Something has changed in the UI judging by view hierarchy. Proceed.
+15:02:38.418 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Tap x5 on id: btn_admin_view COMPLETED
+15:02:38.419 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Assert that "관리자 모드" is visible RUNNING
+15:02:38.599 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Assert that "관리자 모드" is visible COMPLETED
+15:02:38.599 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Tap on id: btn_admin_mode_debug RUNNING
+15:02:38.793 [ INFO] maestro.Maestro.tap-BUbHBYE: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=관리자 모드 페이지로 이동, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=com.banaple.bnapresso.windowskiosk:id/btn_admin_mode_debug, clickable=true, bounds=[128,1133][952,1246], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.Button, important-for-accessibility=true, error=}, children=[], clickable=true, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=128, y=1133, width=824, height=113))
+15:02:39.663 [ INFO] maestro.Maestro.tap-BUbHBYE: Refreshed element
+15:02:39.664 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Tapping at (540, 1189) using hierarchy based logic for wait
+15:02:40.875 [ INFO] maestro.Maestro.hierarchyBasedTap-hbl3e4M: Something has changed in the UI judging by view hierarchy. Proceed.
+15:02:40.875 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$7: Tap on id: btn_admin_mode_debug COMPLETED
+15:02:40.875 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$5: Tap on id: btn_cancel RUNNING
+15:02:58.013 [ERROR] maestro.orchestra.Orchestra.executeCommands: [Command execution] CommandFailed: Element not found: Id matching regex: btn_cancel
+15:02:58.013 [ INFO] maestro.cli.runner.TestSuiteInteractor.runFlow$lambda$17$lambda$9: Tap on id: btn_cancel FAILED
+15:02:58.017 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+15:02:58.017 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+15:02:59.194 [ INFO] maestro.cli.report.TestDebugReporter.deleteOldFiles: Performing purge of logs older than 14 days from C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\.\debug\.maestro\tests
