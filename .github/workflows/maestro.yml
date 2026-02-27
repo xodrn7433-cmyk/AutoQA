@@ -3,18 +3,21 @@ name: Maestro Test
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   maestro:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Install Maestro
         run: curl -Ls https://get.maestro.mobile.dev | bash
 
-      - name: Run App
+      - name: Run App Tests
         run: ~/.maestro/bin/maestro test app
 
-      - name: Run Kiosk
+      - name: Run Kiosk Tests
         run: ~/.maestro/bin/maestro test S.Kiosk
