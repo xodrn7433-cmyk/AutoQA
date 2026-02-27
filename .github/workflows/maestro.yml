@@ -1,0 +1,24 @@
+name: Maestro Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "what to run? (app / kiosk / both)"
+        required: true
+        default: "both"
+
+jobs:
+  maestro:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: curl -Ls https://get.maestro.mobile.dev | bash
+
+      - name: Run App
+        if: ${{ github.event.inputs.target == 'app' || github.event.inputs.target == 'both' }}
+        run: ~/.maestro/bin/maestro test app
+
+      - name: Run Kiosk
+        if: ${{ github.event.inputs.target == 'kiosk' || github.event.inputs.target == 'both' }}
+        run: ~/.maestro/bin/maestro test S.Kiosk
