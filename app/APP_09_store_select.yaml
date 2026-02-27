@@ -1,0 +1,6 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn: 매장
+- tapOn: My 매장
+- tapOn: 가맹테스트점
+- tapOn: 선택

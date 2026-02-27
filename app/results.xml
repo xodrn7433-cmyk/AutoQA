@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="Pixel_6" tests="1" failures="1" time="18.0">
+    <testcase id="store_select" name="store_select" classname="store_select" time="18.0" status="ERROR">
+      <properties/>
+      <failure>Element not found: Text matching regex: 매장</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

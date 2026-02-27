@@ -1,0 +1,26 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn: 주문하기 (2개)
+- tapOn: 테이크아웃
+
+- scrollUntilVisible:
+    element:
+      text: "라벨지 출력 문구"
+    direction: DOWN
+    timeout: 15000
+
+- tapOn: 쿠폰 번호 입력
+- tapOn: 0000-0000-0000
+- inputText: "470646739560"
+- tapOn: 완료
+- waitForAnimationToEnd
+
+- assertVisible: "-4,500원"
+- tapOn:
+    id: icon_check
+
+- tapOn:
+    id: check_auto_apply
+- waitForAnimationToEnd
+- assertVisible: "-1,800원"
+

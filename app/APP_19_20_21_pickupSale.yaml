@@ -1,0 +1,63 @@
+appId: com.banaple.foodproapp.banapresso
+---
+
+- tapOn: 커피/음료
+- tapOn:
+    id: image_thumbnail
+- tapOn: ICED
+
+- tapOn: 담기
+- tapOn:
+    id: icon_back
+
+- tapOn: 푸드
+- tapOn:
+    id: image_thumbnail
+    index: 8
+- tapOn: 담기
+
+- tapOn:
+    id: icon_cart
+
+
+- assertVisible: "테이크아웃"
+- assertVisible: "6,400원"
+- tapOn: 선택삭제
+- tapOn: 삭제
+- tapOn:
+    id: icon_back
+- tapOn:
+    id: icon_back
+
+- tapOn: 변경
+- tapOn: My 매장
+- tapOn: 테스트점
+- tapOn: 선택
+
+- tapOn: 커피/음료
+- tapOn:
+    id: image_thumbnail
+- tapOn: ICED
+
+- tapOn: 담기
+- tapOn:
+    id: icon_back
+
+- tapOn: 푸드
+- scrollUntilVisible:
+    element:
+      text: "매콤닭가슴살 파니니"
+    direction: DOWN
+    timeout: 15000
+
+- tapOn:
+    id: image_thumbnail
+    index: 2
+
+- tapOn: 담기
+- tapOn:
+    id: icon_cart
+
+- assertVisible: "테이크아웃"
+- assertVisible: "-600원"
+

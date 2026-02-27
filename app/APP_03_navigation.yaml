@@ -1,0 +1,31 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn:   #멤버십 진입 케이스 확인
+    text: "멤버십"
+- assertVisible:
+    text: "스탬프"
+- assertVisible:
+    text: "적립/사용 내역"
+
+- tapOn: 충전 #충전 진입 케이스 확인
+- assertVisible:
+    text: "충전포인트 잔액"
+- assertVisible:
+    text: "남은 충전 한도"
+
+- tapOn:
+    id: icon_back #홈화면으로 이동
+
+- tapOn: 매장 #매장 진입 케이스 확인
+- assertVisible:
+    text: "가까운 매장"
+- assertVisible:
+    text: "My 매장"
+
+- tapOn: 주문내역 #주문 진입 케이스 확인
+- assertVisible:
+    text: "주문상태(전체)"
+
+- tapOn: 더보기 #주문 진입 케이스 확인
+- assertVisible:
+    text: "바나로그"

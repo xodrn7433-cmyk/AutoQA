@@ -1,0 +1,10 @@
+appId: com.banaple.foodproapp.banapresso
+---
+# 온도 선택
+- tapOn: ICED
+- assertVisible: "1,800원"
+
+# 수량 증가
+- tapOn:
+    id: btn_plus
+- assertVisible: "3,600원"

@@ -1,0 +1,22 @@
+appId: com.banaple.foodproapp.banapresso
+---
+# 아래로 충분히 스크롤 (3번 + 이동거리 큼)
+
+- swipe:
+    start: 50%, 80%
+    end: 50%, 35%
+    duration: 700
+- waitForAnimationToEnd
+
+- swipe:
+    start: 50%, 80%
+    end: 50%, 35%
+    duration: 700
+- waitForAnimationToEnd
+
+
+# 옵션 선택(카드 더블탭)
+- tapOn: NEW
+
+# 팝업 확인
+- tapOn: "확인"

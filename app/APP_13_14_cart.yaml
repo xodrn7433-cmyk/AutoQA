@@ -1,0 +1,45 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn:
+    id: icon_cart
+
+- tapOn:
+    id: btn_go_menu
+
+- tapOn: "커피/음료"
+
+# doubleTapOn 대체
+- tapOn:
+    id: image_thumbnail
+    delay: 100
+
+- tapOn: "ICED"
+- tapOn: "담기"
+
+- tapOn:
+    id: icon_cart
+
+- tapOn:
+    id: icon_check
+
+- assertVisible: "1,800원"
+- tapOn:
+    id: image_pllus
+- assertVisible: "3,600원"
+
+- tapOn:
+    id: image_minus
+- assertVisible: "1,800원"
+
+- tapOn:
+    id: icon_delete
+
+- tapOn: "삭제"
+- assertVisible: "장바구니에 담긴 메뉴가 없습니다."
+
+- tapOn:
+    id: btn_back
+
+- tapOn:
+    id: icon_back
+- tapOn: "추천"

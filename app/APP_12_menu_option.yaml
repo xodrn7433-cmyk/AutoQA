@@ -1,0 +1,19 @@
+appId: com.banaple.foodproapp.banapresso
+---
+
+# 옵션 영역이 보일 때까지 아래로 스크롤
+- scrollUntilVisible:
+    element:
+      text: "샷추가(2샷)"
+    direction: DOWN
+    timeout: 5000
+
+# 스크롤 애니메이션 종료 대기
+- waitForAnimationToEnd
+- waitForAnimationToEnd
+
+# 옵션 선택
+- tapOn: "샷추가(2샷)"
+
+# ✅ 샷추가 적용 후 금액 검증 (핵심)
+- assertVisible: "5,000원"

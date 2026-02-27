@@ -1,0 +1,8 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn: 커피/음료
+- doubleTapOn:
+    id: image_thumbnail
+    delay: 100
+- assertVisible: "ICED"   # 초기 금액 확인
+- assertVisible: "HOT"
