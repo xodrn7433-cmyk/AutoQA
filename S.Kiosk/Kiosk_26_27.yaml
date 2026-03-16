@@ -1,0 +1,26 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn: 커피
+- tapOn: 아이스 아메리카노
+- tapOn: 확인
+
+- repeat:
+    times: 2
+    commands:
+      - tapOn:
+          id: btn_plus
+- assertVisible: "6,000원"
+
+- tapOn:
+    id: btn_minus
+- assertVisible: "4,000원"
+
+- tapOn:
+    id: btn_delete
+- assertVisible: "장바구니가 비어 있습니다."
+
+
+
+
+
+

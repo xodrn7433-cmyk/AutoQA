@@ -1,0 +1,15 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn: 상품
+- tapOn: 1만원권 바나프레소 상품권
+- tapOn: 확인
+- tapOn:
+    id: btn_payment_layout
+- tapOn: 건너뛰기
+- tapOn: 식권대장
+- tapOn: 확인
+- tapOn:
+    text: "이전 화면"
+- tapOn:
+      id: btn_delete
+

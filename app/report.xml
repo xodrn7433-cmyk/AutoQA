@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites>
-  <testsuite name="Test Suite" device="Pixel_6" tests="1" failures="0" time="19.0">
-    <testcase id="App_03_navigation" name="App_03_navigation" classname="App_03_navigation" time="19.0" status="SUCCESS">
-      <properties/>
-    </testcase>
+  <testsuite name="Test Suite" device="Pixel_6" tests="1" failures="0" time="26.0">
+    <testcase id="APP_03_navigation" name="APP_03_navigation" classname="APP_03_navigation" time="26.0" status="SUCCESS"/>
   </testsuite>
 </testsuites>

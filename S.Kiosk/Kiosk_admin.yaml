@@ -2,7 +2,7 @@ appId: com.banaple.foodproapp.banapresso
 ---
 - tapOn:
     id: btn_admin_view
-    repeat: 5
+    repeat: 6
     delay: 10            # 두 탭 사이 간격(ms). 더 빠르게 하고 싶으면 0~10
     retryTapIfNoChange: false
     waitToSettleTimeoutMs: 0
@@ -17,4 +17,8 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn:
     id: btn_cancel
 - tapOn: 결제취소
+
+
 - tapOn: 확인
+
+

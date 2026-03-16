@@ -13,13 +13,12 @@ appId: com.banaple.foodproapp.banapresso
 
 - tapOn: 아이스 아메리카노
 
+
 - tapOn: "차가운 음료"
 - assertVisible: "2,000원"
 
 
-- tapOn:
-    text: 아이스크림 추가
-    index: 1
+- tapOn: 연한샷 추가
 - assertVisible: "2,500원"
 - tapOn: "텀블러에 담아주세요"
 - tapOn: "확인"
@@ -30,7 +29,29 @@ appId: com.banaple.foodproapp.banapresso
     rightOf: "1"
 - assertVisible: "4,500원"
 
+- tapOn:
+    point: 55%,35%
+- tapOn:
+      point: 37%,67%
+
+
+- assertVisible: "2,000원"
+
+- tapOn: 빅바나 용량업
+- assertVisible: "3,300원"
+- tapOn: 디카페인
+- assertVisible: "4,300원"
+- waitForAnimationToEnd
+
 - tapOn: 취소
-- tapOn: "통팥밀크티"
+
+
+- tapOn: 저당 얼그레이밀크티
+
 - assertVisible: "따뜻한 음료"
 - assertVisible: "차가운 음료"
+- tapOn: 취소
+
+
+
+

@@ -1,0 +1,88 @@
+appId: com.banaple.foodproapp.banapresso
+---
+
+- tapOn:
+      id: btn_takeout_layout
+- tapOn:
+    point: 44%,58%
+- tapOn:
+    point: 87%,34%
+
+
+- tapOn: 확인
+- tapOn:
+      id: btn_payment_layout
+
+
+- tapOn:
+      point: "30%,75%"
+
+- tapOn:
+      point: "20%,60%"
+
+- tapOn:
+      point: "40%,60%"
+- tapOn:
+      point: "40%,60%"
+- tapOn:
+      point: "30%,75%"
+- tapOn:
+      point: "20%,70%"
+- tapOn:
+      point: "70%,60%"
+- tapOn:
+      point: "70%,60%"
+- tapOn: 확인
+- tapOn: 예
+
+- tapOn:
+      point: "12%,57%"
+
+- tapOn:
+      point: "70%,60%"
+
+- tapOn:
+      point: 38%,57%
+
+- tapOn:
+      point: "20%,65%"
+- tapOn:
+      point: 40%,65%
+
+- tapOn:
+      point: 70%,65%
+- tapOn: 제휴사/이벤트 쿠폰 사용
+
+- tapOn:
+    point: 12%,43%  #4
+- tapOn:
+    point: 12%,49%  #7
+- tapOn:
+    point: 40%,60% #0
+- tapOn:
+    point: 65%,45% #6
+- tapOn:
+    point: 12%,43%  #4
+- tapOn:
+    point: 65%,45% #6
+- tapOn:
+    point: 12%,49%  #7
+- tapOn:
+    point: 65%,40%  #3
+- tapOn:
+    point: 65%,50%
+- tapOn:
+    point: 38%,43%
+- tapOn:
+    point: 65%,45% #6
+- tapOn:
+    point: 40%,60% #0
+
+
+
+- tapOn: 확인
+- tapOn: 발급안함
+- tapOn: 예
+- tapOn: 주문 완료
+
+

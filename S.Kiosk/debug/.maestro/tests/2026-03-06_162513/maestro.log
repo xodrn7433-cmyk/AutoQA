@@ -1,0 +1,75 @@
+16:25:14.053 [ INFO] maestro.cli.report.TestDebugReporter.logSystemInfo: Debug output path: C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\.\debug\.maestro\tests\2026-03-06_162513
+16:25:14.055 [ INFO] MAESTRO.logSystemInfo: ---- System Info ----
+16:25:14.055 [ INFO] MAESTRO.logSystemInfo: Maestro Version: 2.2.0
+16:25:14.056 [ INFO] MAESTRO.logSystemInfo: CI: Undefined
+16:25:14.056 [ INFO] MAESTRO.logSystemInfo: OS Name: Windows 11
+16:25:14.056 [ INFO] MAESTRO.logSystemInfo: OS Version: 10.0
+16:25:14.056 [ INFO] MAESTRO.logSystemInfo: Architecture: amd64
+16:25:14.058 [ INFO] MAESTRO.logSystemInfo: Java Version: 21
+16:25:14.059 [ INFO] MAESTRO.logSystemInfo: Xcode Version: null
+16:25:14.060 [ INFO] MAESTRO.logSystemInfo: Flutter Version: Undefined
+16:25:14.061 [ INFO] MAESTRO.logSystemInfo: Flutter Channel: Undefined
+16:25:14.061 [ INFO] MAESTRO.logSystemInfo: ---------------------
+16:25:14.750 [DEBUG] io.micrometer.common.util.internal.logging.InternalLoggerFactory.newDefaultFactory: Using SLF4J as the default logging framework
+16:25:14.815 [ INFO] maestro.cli.command.TestCommand.runShardSuite: [shard 1] Selected device ADB02P2403110192 using port 7001 with execution plan ExecutionPlan(flowsToRun=[C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\Kiosk_admin.yaml], sequence=FlowSequence(flows=[], continueOnFailure=true), workspaceConfig=WorkspaceConfig(flows=null, includeTags=null, excludeTags=null, executionOrder=null, baselineBranch=null, notifications=null, disableRetries=false, platform=PlatformConfiguration(android=AndroidConfiguration(disableAnimations=false), ios=IOSConfiguration(disableAnimations=false, snapshotKeyHonorModalViews=null)), testOutputDir=null))
+16:25:15.028 [ INFO] maestro.cli.runner.TestRunner.runSingle$lambda$0: Running flow Kiosk_admin.yaml...
+16:25:15.054 [ INFO] maestro.Maestro.cachedDeviceInfo_delegate$lambda$0: Getting device info
+16:25:15.200 [ERROR] maestro.drivers.AndroidDriver.runDeviceCall: Not able to reach the gRPC server while processing deviceInfo command
+16:25:15.201 [ERROR] maestro.cli.runner.TestRunner.runCatching-ta8aW1Q: Failed to run flow
+io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at io.grpc.stub.ClientCalls.toStatusRuntimeException(ClientCalls.java:275)
+	at io.grpc.stub.ClientCalls.getUnchecked(ClientCalls.java:256)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:169)
+	at maestro_android.MaestroDriverGrpc$MaestroDriverBlockingStub.deviceInfo(MaestroDriverGrpc.java:740)
+	at maestro.drivers.AndroidDriver.deviceInfo$lambda$4(AndroidDriver.kt:212)
+	at maestro.drivers.AndroidDriver.runDeviceCall(AndroidDriver.kt:1263)
+	at maestro.drivers.AndroidDriver.deviceInfo(AndroidDriver.kt:211)
+	at maestro.Maestro.cachedDeviceInfo_delegate$lambda$0(Maestro.kt:49)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:86)
+	at maestro.Maestro.getCachedDeviceInfo(Maestro.kt:47)
+	at maestro.orchestra.Orchestra.initJsEngine(Orchestra.kt:301)
+	at maestro.orchestra.Orchestra.runFlow(Orchestra.kt:160)
+	at maestro.cli.runner.MaestroCommandRunner.runCommands(MaestroCommandRunner.kt:201)
+	at maestro.cli.runner.TestRunner$runSingle$result$1$1.invokeSuspend(TestRunner.kt:76)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at maestro.cli.runner.TestRunner.runSingle$lambda$0(TestRunner.kt:75)
+	at maestro.cli.runner.TestRunner.runCatching-ta8aW1Q(TestRunner.kt:204)
+	at maestro.cli.runner.TestRunner.runSingle(TestRunner.kt:66)
+	at maestro.cli.command.TestCommand.runSingleFlow(TestCommand.kt:561)
+	at maestro.cli.command.TestCommand.runShardSuite$lambda$10(TestCommand.kt:529)
+	at maestro.cli.session.MaestroSessionManager.newSession(MaestroSessionManager.kt:132)
+	at maestro.cli.session.MaestroSessionManager.newSession$default(MaestroSessionManager.kt:66)
+	at maestro.cli.command.TestCommand.runShardSuite(TestCommand.kt:476)
+	at maestro.cli.command.TestCommand.access$runShardSuite(TestCommand.kt:80)
+	at maestro.cli.command.TestCommand$handleSessions$1$results$1$1.invokeSuspend(TestCommand.kt:435)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:111)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:99)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:585)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:802)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:706)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:693)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: localhost/[0:0:0:0:0:0:0:1]:7001
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Unknown Source)
+16:25:15.314 [ INFO] maestro.cli.report.TestDebugReporter.deleteOldFiles: Performing purge of logs older than 14 days from C:\Users\Banaple151\AndroidStudioProjects\test\maestro-tests\S.Kiosk\.\debug\.maestro\tests

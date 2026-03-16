@@ -1,0 +1,53 @@
+appId: com.banaple.foodproapp.banapresso
+---
+#- tapOn: 아이스 아메리카노
+#- tapOn: 확인
+#- tapOn:
+#    id: btn_payment_layout
+- tapOn:
+    point: "30%,75%"
+
+- tapOn:
+    point: "20%,60%"
+
+- tapOn:
+    point: "40%,60%"
+- tapOn:
+    point: "40%,60%"
+- tapOn:
+    point: "30%,75%"
+- tapOn:
+    point: "20%,70%"
+- tapOn:
+    point: "70%,60%"
+- tapOn:
+    point: "70%,60%"
+- tapOn: 확인
+- tapOn: 예
+
+- tapOn:
+    point: "12%,57%"
+
+- tapOn:
+    point: "70%,60%"
+
+- tapOn:
+    point: 38%,57%
+
+- tapOn:
+    point: "20%,65%"
+- tapOn:
+    point: 40%,65%
+
+- tapOn:
+    point: 70%,65%
+
+- tapOn:
+    id: icon_check
+
+- tapOn: 결제진행
+
+- tapOn: 아니오
+
+- tapOn: 주문 완료
+
