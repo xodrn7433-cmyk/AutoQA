@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites>
-  <testsuite name="Test Suite" device="ADB02P2403110192" tests="1" failures="1" time="50.0">
-    <testcase id="Kiosk_18_19_20_21" name="Kiosk_18_19_20_21" classname="Kiosk_18_19_20_21" time="50.0" status="ERROR">
-      <failure>Element not found: Text matching regex: 저당 얼그레이밀크티</failure>
+  <testsuite name="Test Suite" device="ADB02P2403110192" tests="1" failures="1" time="18.0">
+    <testcase id="test" name="test" classname="test" time="18.0" status="ERROR">
+      <failure>Element not found: Id matching regex: btn_text_scale_large_layout</failure>
     </testcase>
   </testsuite>
 </testsuites>

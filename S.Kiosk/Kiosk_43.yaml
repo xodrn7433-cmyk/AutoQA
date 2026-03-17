@@ -13,46 +13,28 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn:
     id: btn_payment_layout
 
+- tapOn: 건너뛰기
+- tapOn: 선결제(단체)
 
-- tapOn:
-    point: "30%,75%"
+- scrollUntilVisible:
+      element: "김정수QA"
+      direction: DOWN
+      timeout: 10000
 
+- tapOn: "김정수QA"
+- tapOn: "결제진행"
 - tapOn:
-    point: "20%,60%"
+      point: 43%,61%
+- tapOn:
+      point: 43%,61%
+- tapOn:
+      point: 43%,61%
+- tapOn:
+      point: 43%,61%
+- tapOn:
+      point: 43%,61%
+- tapOn:
+      point: 43%,61%
 
-- tapOn:
-    point: "40%,60%"
-- tapOn:
-    point: "40%,60%"
-- tapOn:
-    point: "30%,75%"
-- tapOn:
-    point: "20%,70%"
-- tapOn:
-    point: "70%,60%"
-- tapOn:
-    point: "70%,60%"
-- tapOn: 확인
-- tapOn: 예
-
-- tapOn:
-    point: "12%,57%"
-
-- tapOn:
-    point: "70%,60%"
-
-- tapOn:
-    point: 38%,57%
-
-- tapOn:
-    point: "20%,65%"
-- tapOn:
-    point: 40%,65%
-
-- tapOn:
-    id: icon_check
-    index: 1
-- tapOn: 결제진행
-- tapOn: 발급안함
-- tapOn: 예
+- tapOn: 아니오
 - tapOn: 주문 완료

@@ -1,8 +1,11 @@
 appId: com.banaple.foodproapp.banapresso
 ---
 
+#제휴사 쿠폰 등록
 - tapOn:
-      id: btn_takeout_layout
+    id: btn_takeout
+- tapOn: 논커피라떼
+- tapOn: 딸기크리미라떼
 - tapOn:
     point: 44%,58%
 - tapOn:
@@ -70,9 +73,9 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn:
     point: 65%,40%  #3
 - tapOn:
-    point: 65%,50%
+    point: 65%,50% #9
 - tapOn:
-    point: 38%,43%
+    point: 38%,43% #5
 - tapOn:
     point: 65%,45% #6
 - tapOn:
@@ -82,7 +85,7 @@ appId: com.banaple.foodproapp.banapresso
 
 - tapOn: 확인
 - tapOn: 발급안함
-- tapOn: 예
+- tapOn: 아니오
 - tapOn: 주문 완료
 
 

@@ -22,3 +22,11 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn: 확인
 
 
+- tapOn:
+      id: btn_cancel
+- tapOn: 결제취소
+
+
+- tapOn: 확인
+- tapOn:
+      point: 4%,1%

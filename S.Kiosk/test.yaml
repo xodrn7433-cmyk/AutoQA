@@ -1,0 +1,5 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn:
+    id: btn_text_scale_large_layout
+

@@ -1,6 +1,6 @@
 appId: com.banaple.foodproapp.banapresso
 ---
-
+#매장포인트사용
 - tapOn:
     id: btn_takeout_layout
 - tapOn:
@@ -48,10 +48,15 @@ appId: com.banaple.foodproapp.banapresso
     point: "20%,65%"
 - tapOn:
     point: 40%,65%
+- tapOn:
+      point: 70%,65%
 
 - tapOn:
-    id: icon_check
+      id: icon_check
+      index: 1
+
 - tapOn: 결제진행
-- tapOn: 발급안함
-- tapOn: 예
+- tapOn:
+      id: btn_card_payment
+- tapOn: 아니오
 - tapOn: 주문 완료

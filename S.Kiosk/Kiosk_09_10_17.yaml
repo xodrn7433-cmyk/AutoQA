@@ -9,6 +9,8 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn:
     id: btn_store
 - tapOn: 확인
+
+
 - assertVisible: "2,500원"
 - tapOn: 테이크아웃
 - assertVisible: "1,800원"

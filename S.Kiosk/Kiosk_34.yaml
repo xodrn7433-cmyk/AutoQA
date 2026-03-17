@@ -1,6 +1,9 @@
 appId: com.banaple.foodproapp.banapresso
 ---
 
+# 쿠폰사용 케이스 확인
+- tapOn:
+    id: btn_takeout
 - tapOn:
     id: image_menu
     index: 1
@@ -46,7 +49,7 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn:
       point: 70%,65%
 
-- tapOn: 자동적용 (1장)
+- tapOn: 자동적용 (4장)
 
 - assertVisible: "0원"
 

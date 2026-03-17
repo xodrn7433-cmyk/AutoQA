@@ -33,6 +33,9 @@ appId: com.banaple.foodproapp.banapresso
     point: 55%,35%
 - tapOn:
       point: 37%,67%
+- tapOn:
+    text: 기본
+    index: 1
 
 
 - assertVisible: "2,000원"
