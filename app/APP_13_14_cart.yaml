@@ -22,14 +22,14 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn:
     id: icon_check
 
-- assertVisible: "1,800원"
+- assertVisible: "2,000원"
 - tapOn:
     id: image_pllus
-- assertVisible: "3,600원"
+- assertVisible: "4,000원"
 
 - tapOn:
     id: image_minus
-- assertVisible: "1,800원"
+- assertVisible: "2,000원"
 
 - tapOn:
     id: icon_delete

@@ -1,0 +1,46 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn: 그대로 메뉴 담기
+- tapOn: 장바구니 가기
+- tapOn: 주문하기 (2개)
+- tapOn: 테이크아웃
+
+- scrollUntilVisible:
+    element:
+      text: "포인트"
+    direction: DOWN
+    timeout: 15000
+- tapOn:
+    id: icon_arrow_point
+- tapOn:
+    id: editor
+- tapOn: "1"
+- tapOn: "0"
+- tapOn: 완료
+- tapOn: 100P 사용하기
+- assertVisible: "-6,300원 결제하기(2개)"
+
+
+- tapOn:
+    id: icon_arrow_point
+
+- tapOn:
+    id: editor
+    index: 1
+- tapOn: "1"
+- tapOn: "0"
+- tapOn: 완료
+- tapOn: 100P 사용하기
+- assertVisible: "-6,300원 결제하기(2개)"
+
+- tapOn:
+    id: icon_arrow_point
+
+- tapOn:
+    id: editor
+    index: 2
+- tapOn: "1"
+- tapOn: "0"
+- tapOn: 완료
+- tapOn: 100P 사용하기
+- assertVisible: "-6,300원 결제하기(2개)"

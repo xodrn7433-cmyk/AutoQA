@@ -1,0 +1,60 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn: 주문하려면 화면을 터치해주세요.
+
+# 유료포인트 사용 케이스 확인
+- tapOn: 테이크아웃(포장)
+- tapOn: 커피
+- tapOn: 아이스 아메리카노
+- tapOn: 확인
+- tapOn: 결제하기
+- waitForAnimationToEnd
+
+- tapOn:
+    point: 40%,62%   #7
+- tapOn:
+    point: 40%,48%  #1
+- tapOn:
+    point: 48%,48%  #2
+- tapOn:
+    point: 48%,48%  #2
+- tapOn:
+    point: 40%,62%   #7
+- tapOn:
+    point: 40%,55%    #4
+- tapOn:
+    point: 56%,48%  #3
+- tapOn:
+    point: 56%,48%  #3
+- waitForAnimationToEnd
+
+- tapOn: 확인
+- tapOn: 예
+
+- tapOn:
+    point: 40%,48%   #1
+- tapOn:
+    point: 56%,48%  #3
+- tapOn:
+    point: 48%,48% #2
+- tapOn:
+    point: 40%,55% #4
+- tapOn:
+    point: 48%,55% #5
+- tapOn:
+    point: 56%,55% #6
+- waitForAnimationToEnd
+
+- tapOn:
+    id: icon_check
+
+- assertVisible: "0원"
+
+- tapOn: 결제진행
+- tapOn: 발급안함
+- waitForAnimationToEnd
+
+- tapOn: 주문 완료
+
+
+

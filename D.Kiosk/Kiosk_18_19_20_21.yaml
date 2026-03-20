@@ -1,60 +1,56 @@
 appId: com.banaple.foodproapp.banapresso
 ---
 
-- tapOn:
-    id: image_menu
+- tapOn: 주문 취소
+- tapOn: 확인
+- tapOn: 주문하려면 화면을 터치해주세요.
+- tapOn: 테이크아웃(포장)
 
-- waitForAnimationToEnd
-
+- tapOn: 커피
+- tapOn: 핫 아메리카노
 - assertVisible: "따뜻한 음료"
 
+
 - tapOn: 취소
-
-
 - tapOn: 아이스 아메리카노
-
-
-- tapOn: "차가운 음료"
-- assertVisible: "2,000원"
+- assertVisible: "차가운 음료"
 
 
 - tapOn: 연한샷 추가
-- assertVisible: "2,500원"
+- assertVisible: "2,500"
 - tapOn: "텀블러에 담아주세요"
+- waitForAnimationToEnd
+
 - tapOn: "확인"
 
 - tapOn:
     text: "1"
 - tapOn:
     rightOf: "1"
-- assertVisible: "4,500원"
+- assertVisible: "4,500"
 
 - tapOn:
-    point: 55%,35%
-- tapOn:
-      point: 37%,67%
+    point: 5,30%
+- assertVisible: "2,500"
+
 - tapOn:
     text: 기본
     index: 1
 
-
-- assertVisible: "2,000원"
-
 - tapOn: 빅바나 용량업
-- assertVisible: "3,300원"
-- tapOn: 디카페인
-- assertVisible: "4,800원"
+- assertVisible: "3,300"
 - waitForAnimationToEnd
+
+- tapOn: 디카페인
+- assertVisible: "4,800"
 
 - tapOn: 취소
 
+- tapOn: 추천메뉴
 
+- tapOn: 저당 얼그레이밀크티
 - tapOn: 저당 얼그레이밀크티
 
 - assertVisible: "따뜻한 음료"
 - assertVisible: "차가운 음료"
 - tapOn: 취소
-
-
-
-

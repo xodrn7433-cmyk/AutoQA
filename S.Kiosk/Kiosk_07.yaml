@@ -2,9 +2,11 @@ appId: com.banaple.foodproapp.banapresso
 ---
 - tapOn: English
 - assertVisible: "FOR HERE"
+- waitForAnimationToEnd
 
 - tapOn: 中文
 - assertVisible: "堂食"
+- waitForAnimationToEnd
 
 - tapOn: 日本語
 - assertVisible: "店内飲食"

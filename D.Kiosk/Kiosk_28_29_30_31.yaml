@@ -1,0 +1,74 @@
+appId: com.banaple.foodproapp.banapresso
+---
+
+- tapOn: 아이스 아메리카노
+
+- tapOn: 확인
+- tapOn: 결제하기
+
+
+- tapOn:
+    point: 40%,62%   #7
+- tapOn:
+    point: 40%,48%  #1
+- tapOn:
+    point: 48%,48%  #2
+- tapOn:
+    point: 48%,48%  #2
+- tapOn:
+    point: 40%,62%   #7
+- tapOn:
+    point: 40%,55%    #4
+- tapOn:
+    point: 56%,48%  #3
+- tapOn:
+    point: 56%,48%  #3
+
+
+- tapOn: 확인
+- tapOn: 예
+
+- tapOn:
+    point: 40%,48%   #1
+- tapOn:
+    point: 56%,48%  #3
+- tapOn:
+    point: 48%,48% #2
+- tapOn:
+    point: 40%,55% #4
+- tapOn:
+    point: 48%,55% #5
+- tapOn:
+    point: 56%,55% #6
+
+- tapOn: 제휴사/이벤트 쿠폰 사용
+
+- tapOn:
+    point: 40%,55%   #4
+- tapOn:
+    point: 40%,62%  #7
+- tapOn:
+    point: 56%,48%   #3
+- tapOn:
+    point: 40%,62%   #7
+- tapOn:
+    point: 48%,69%  #0
+- tapOn:
+    point: 56%,48%   #3
+- tapOn:
+    point: 56%,55%    #6
+- tapOn:
+    point: 48%,62%   #8
+- tapOn:
+    point: 40%,62%   #7
+- tapOn:
+    point: 48%,69%  #0
+- tapOn:
+    point: 48%,62%   #8
+- tapOn:
+    point: 56%,48%    #3
+
+- tapOn: 확인
+- tapOn: 발급안함
+- tapOn: 주문 완료
+

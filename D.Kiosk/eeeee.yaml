@@ -1,0 +1,21 @@
+appId: com.banaple.foodproapp.banapresso
+---
+
+- tapOn: 주문하려면 화면을 터치해주세요.
+- waitForAnimationToEnd
+
+- tapOn: Eng
+
+- assertVisible: "Takeout(Packaging)"
+
+- tapOn: 中文
+- assertVisible: "外带(打包)"
+
+- tapOn: 日本語
+- assertVisible: "テイクアウト"
+
+- tapOn: 한글
+- assertVisible: "테이크아웃(포장)"
+
+
+

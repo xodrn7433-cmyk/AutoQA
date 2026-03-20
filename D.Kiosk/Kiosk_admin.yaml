@@ -1,0 +1,33 @@
+appId: com.banaple.foodproapp.banapresso
+---
+
+- tapOn: 주문하려면 화면을 터치해주세요.
+
+- tapOn:
+    id: image_logo
+    repeat: 6
+    delay: 10            # 두 탭 사이 간격(ms). 더 빠르게 하고 싶으면 0~10
+    retryTapIfNoChange: false
+    waitToSettleTimeoutMs: 0
+
+- tapOn: 관리자 모드 페이지로 이동
+
+- tapOn:
+    id: btn_admin_mode_debug
+
+- tapOn:
+    id: btn_cancel
+- tapOn: 결제취소
+- tapOn: 결제취소
+
+
+- tapOn: 확인
+
+- tapOn:
+    id: btn_cancel
+- tapOn: 결제취소
+
+
+- tapOn: 확인
+- tapOn:
+    point: 4%,1%

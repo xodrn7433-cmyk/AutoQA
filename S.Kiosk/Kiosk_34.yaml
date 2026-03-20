@@ -56,6 +56,7 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn: 결제진행
 
 - tapOn: 아니오
+- waitForAnimationToEnd
 
 - tapOn: 주문 완료
 

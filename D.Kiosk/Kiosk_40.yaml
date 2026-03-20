@@ -1,0 +1,40 @@
+appId: com.banaple.foodproapp.banapresso
+---
+
+- tapOn: 주문하려면 화면을 터치해주세요.
+
+#선결제 단체
+- tapOn: 테이크아웃(포장)
+- tapOn: 커피
+- tapOn: 아이스 아메리카노
+
+- tapOn: 확인
+- tapOn: 결제하기
+
+
+- tapOn: 건너뛰기
+- tapOn: 선/후불결제
+- tapOn: 결제진행
+
+- scrollUntilVisible:
+    element: "김정수QA"
+    direction: DOWN
+    timeout: 10000
+
+- tapOn: "김정수QA"
+- tapOn: "결제진행"
+
+- tapOn:
+    point: 48%,67%
+- tapOn:
+    point: 48%,67%
+- tapOn:
+    point: 48%,67%
+- tapOn:
+    point: 48%,67%
+- tapOn:
+    point: 48%,67%
+- tapOn:
+    point: 48%,67%
+- tapOn: "준비완료"
+

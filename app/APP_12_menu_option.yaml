@@ -16,4 +16,4 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn: "샷추가(2샷)"
 
 # ✅ 샷추가 적용 후 금액 검증 (핵심)
-- assertVisible: "5,000원"
+- assertVisible: "5,400원"

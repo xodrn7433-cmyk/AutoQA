@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites>
-  <testsuite name="Test Suite" device="ADB02P2403110192" tests="1" failures="1" time="18.0">
-    <testcase id="test" name="test" classname="test" time="18.0" status="ERROR">
-      <failure>Element not found: Id matching regex: btn_text_scale_large_layout</failure>
+  <testsuite name="Test Suite" device="ADB02P2403110192" tests="1" failures="1" time="70.0">
+    <testcase id="Kiosk_28_29_30_31" name="Kiosk_28_29_30_31" classname="Kiosk_28_29_30_31" time="70.0" status="ERROR">
+      <failure>Element not found: Text matching regex: 발급안함</failure>
     </testcase>
   </testsuite>
 </testsuites>

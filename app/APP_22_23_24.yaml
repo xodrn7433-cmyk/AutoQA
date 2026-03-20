@@ -12,15 +12,33 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn: 쿠폰 번호 입력
 - tapOn: 0000-0000-0000
 - inputText: "470646739560"
-- tapOn: 완료
 - waitForAnimationToEnd
+
+- tapOn: 완료
+- tapOn: 완료
+
+- waitForAnimationToEnd
+- scrollUntilVisible:
+      element:
+          text: "최종 결제금액"
+      direction: DOWN
+      timeout: 15000
 
 - assertVisible: "-4,500원"
+- tapOn: 1,900원 결제하기(2개)
+- tapOn: 확인
+- tapOn: 신용/체크카드
+- tapOn: 선택 완료
+- tapOn: 1,900원 결제하기(2개)
+- tapOn: 확인
+- tapOn: 결제하기
 - tapOn:
-    id: icon_check
+      id: icon_close
+- tapOn: 신용/체크카드
+- tapOn: 4327-0600-****-1762
+- tapOn: 선택 완료
+- tapOn: 1,900원 결제하기(2개)
+- tapOn: 결제하기
+- tapOn: 닫기
 
-- tapOn:
-    id: check_auto_apply
-- waitForAnimationToEnd
-- assertVisible: "-1,800원"
 

@@ -1,0 +1,26 @@
+appId: com.banaple.foodproapp.banapresso
+---
+- tapOn: 테이크아웃(포장)
+- assertVisible: "1,800원"
+- tapOn: 주문 취소
+- tapOn: 확인
+- tapOn: 주문하려면 화면을 터치해주세요.
+
+- tapOn: 매장에서 먹을게요
+- tapOn: 확인
+
+
+- assertVisible: "2,500원"
+
+- tapOn:
+      id: image_menu
+      index: 5
+
+- tapOn: 확인
+
+
+
+
+
+
+
