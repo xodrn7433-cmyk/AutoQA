@@ -26,15 +26,27 @@ appId: com.banaple.foodproapp.banapresso
 
 - tapOn:
     point: 48%,67%
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,67%
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,67%
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,67%
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,67%
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,67%
+- waitForAnimationToEnd
+
 - tapOn: "준비완료"
 

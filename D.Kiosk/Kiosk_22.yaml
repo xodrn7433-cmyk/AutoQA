@@ -20,5 +20,6 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn: 확인
 - tapOn:
     text: "이전화면"
+- waitForAnimationToEnd
 - tapOn:
     id: btn_delete

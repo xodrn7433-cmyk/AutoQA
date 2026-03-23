@@ -26,47 +26,85 @@ appId: com.banaple.foodproapp.banapresso
 
 
 - tapOn: 확인
+- waitForAnimationToEnd
+
 - tapOn: 예
 
 - tapOn:
     point: 40%,48%   #1
+- waitForAnimationToEnd
+
 - tapOn:
     point: 56%,48%  #3
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,48% #2
+- waitForAnimationToEnd
+
 - tapOn:
     point: 40%,55% #4
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,55% #5
+- waitForAnimationToEnd
+
 - tapOn:
     point: 56%,55% #6
+- waitForAnimationToEnd
+
 
 - tapOn: 제휴사/이벤트 쿠폰 사용
 
 - tapOn:
     point: 40%,55%   #4
+- waitForAnimationToEnd
+
 - tapOn:
     point: 40%,62%  #7
+- waitForAnimationToEnd
+
 - tapOn:
     point: 56%,48%   #3
+- waitForAnimationToEnd
+
 - tapOn:
     point: 40%,62%   #7
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,69%  #0
+- waitForAnimationToEnd
+
 - tapOn:
     point: 56%,48%   #3
+- waitForAnimationToEnd
+
 - tapOn:
     point: 56%,55%    #6
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,62%   #8
+- waitForAnimationToEnd
+
 - tapOn:
     point: 40%,62%   #7
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,69%  #0
+- waitForAnimationToEnd
+
 - tapOn:
     point: 48%,62%   #8
+- waitForAnimationToEnd
+
 - tapOn:
     point: 56%,48%    #3
+- waitForAnimationToEnd
+
 
 - tapOn: 확인
 - tapOn: 발급안함

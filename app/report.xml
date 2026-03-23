@@ -1,18 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites>
-  <testsuite name="Test Suite" device="R3CN60069ZH" tests="11" failures="1" time="351.0">
-    <testcase id="APP_02_login" name="APP_02_login" classname="APP_02_login" time="17.0" status="SUCCESS"/>
-    <testcase id="APP_03_navigation" name="APP_03_navigation" classname="APP_03_navigation" time="20.0" status="SUCCESS"/>
-    <testcase id="APP_09_store_select" name="APP_09_store_select" classname="APP_09_store_select" time="13.0" status="SUCCESS"/>
+  <testsuite name="Test Suite" device="R5CY54AJQLW" tests="11" failures="2" time="282.0">
+    <testcase id="APP_02_login" name="APP_02_login" classname="APP_02_login" time="16.0" status="SUCCESS"/>
+    <testcase id="APP_03_navigation" name="APP_03_navigation" classname="APP_03_navigation" time="19.0" status="SUCCESS"/>
+    <testcase id="APP_09_store_select" name="APP_09_store_select" classname="APP_09_store_select" time="12.0" status="SUCCESS"/>
     <testcase id="APP_10_menu_detail" name="APP_10_menu_detail" classname="APP_10_menu_detail" time="6.0" status="SUCCESS"/>
-    <testcase id="APP_11_menu_count" name="APP_11_menu_count" classname="APP_11_menu_count" time="5.0" status="SUCCESS"/>
-    <testcase id="APP_12_menu_option" name="APP_12_menu_option" classname="APP_12_menu_option" time="8.0" status="SUCCESS"/>
-    <testcase id="APP_13_14_cart" name="APP_13_14_cart" classname="APP_13_14_cart" time="49.0" status="SUCCESS"/>
-    <testcase id="App_18_order_popup" name="App_18_order_popup" classname="App_18_order_popup" time="9.0" status="SUCCESS"/>
-    <testcase id="APP_19_20_21_pickupSale" name="APP_19_20_21_pickupSale" classname="APP_19_20_21_pickupSale" time="95.0" status="SUCCESS"/>
-    <testcase id="APP_22_23_24" name="APP_22_23_24" classname="APP_22_23_24" time="74.0" status="SUCCESS"/>
-    <testcase id="point" name="point" classname="point" time="55.0" status="ERROR">
-      <failure>Assertion is false: "-9,700원 결제하기(2개)" is visible</failure>
+    <testcase id="APP_11_menu_count" name="APP_11_menu_count" classname="APP_11_menu_count" time="6.0" status="SUCCESS"/>
+    <testcase id="APP_12_menu_option" name="APP_12_menu_option" classname="APP_12_menu_option" time="7.0" status="SUCCESS"/>
+    <testcase id="APP_13_14_cart" name="APP_13_14_cart" classname="APP_13_14_cart" time="50.0" status="SUCCESS"/>
+    <testcase id="App_18_order_popup" name="App_18_order_popup" classname="App_18_order_popup" time="8.0" status="SUCCESS"/>
+    <testcase id="APP_19_20_21_pickupSale" name="APP_19_20_21_pickupSale" classname="APP_19_20_21_pickupSale" time="88.0" status="SUCCESS"/>
+    <testcase id="APP_22_23_24" name="APP_22_23_24" classname="APP_22_23_24" time="53.0" status="ERROR">
+      <failure>Assertion is false: "-4,500원" is visible</failure>
+    </testcase>
+    <testcase id="point" name="point" classname="point" time="17.0" status="ERROR">
+      <failure>Element not found: Text matching regex: 그대로 메뉴 담기</failure>
     </testcase>
   </testsuite>
 </testsuites>

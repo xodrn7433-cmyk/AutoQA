@@ -27,6 +27,8 @@ appId: com.banaple.foodproapp.banapresso
     text: "1"
 - tapOn:
     rightOf: "1"
+- waitForAnimationToEnd
+
 - assertVisible: "4,500"
 
 - tapOn:

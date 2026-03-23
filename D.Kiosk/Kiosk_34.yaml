@@ -12,20 +12,36 @@ appId: com.banaple.foodproapp.banapresso
 
 - tapOn:
       point: 40%,62%   #7
+- waitForAnimationToEnd
+
 - tapOn:
       point: 40%,48%  #1
+- waitForAnimationToEnd
+
 - tapOn:
       point: 48%,48%  #2
+- waitForAnimationToEnd
+
 - tapOn:
       point: 48%,48%  #2
+- waitForAnimationToEnd
+
 - tapOn:
       point: 40%,62%   #7
+- waitForAnimationToEnd
+
 - tapOn:
       point: 40%,55%    #4
+- waitForAnimationToEnd
+
 - tapOn:
       point: 56%,48%  #3
+- waitForAnimationToEnd
+
 - tapOn:
       point: 56%,48%  #3
+- waitForAnimationToEnd
+
 
 
 - tapOn: 확인
@@ -33,16 +49,28 @@ appId: com.banaple.foodproapp.banapresso
 
 - tapOn:
       point: 40%,48%   #1
+- waitForAnimationToEnd
+
 - tapOn:
       point: 56%,48%  #3
+- waitForAnimationToEnd
+
 - tapOn:
       point: 48%,48% #2
+- waitForAnimationToEnd
+
 - tapOn:
       point: 40%,55% #4
+- waitForAnimationToEnd
+
 - tapOn:
       point: 48%,55% #5
+- waitForAnimationToEnd
+
 - tapOn:
       point: 56%,55% #6
+- waitForAnimationToEnd
+
 
 - tapOn: 자동적용 (4장)
 
