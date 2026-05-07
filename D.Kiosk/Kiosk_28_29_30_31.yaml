@@ -2,111 +2,48 @@ appId: com.banaple.foodproapp.banapresso
 ---
 
 - tapOn: 아이스 아메리카노
-
 - tapOn: 확인
 - tapOn: 결제하기
-
-
-- tapOn:
-    point: 40%,62%   #7
-- tapOn:
-    point: 40%,48%  #1
-- tapOn:
-    point: 48%,48%  #2
-- tapOn:
-    point: 48%,48%  #2
-- tapOn:
-    point: 40%,62%   #7
-- tapOn:
-    point: 40%,55%    #4
-- tapOn:
-    point: 56%,48%  #3
-- tapOn:
-    point: 56%,48%  #3
-
-
-- tapOn: 확인
 - waitForAnimationToEnd
 
+# 71227433
+- tapOn: { point: "40%,62%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #7
+- tapOn: { point: "40%,48%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #1
+- tapOn: { point: "48%,48%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400, repeat: 2, delay: 180 }  #22
+- tapOn: { point: "40%,62%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #7
+- tapOn: { point: "40%,55%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #4
+- tapOn: { point: "56%,48%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400, repeat: 2, delay: 180 }  #33
+
+- tapOn: 확인``````````````````````````
+- waitForAnimationToEnd
 - tapOn: 예
-
-- tapOn:
-    point: 40%,48%   #1
 - waitForAnimationToEnd
 
-- tapOn:
-    point: 56%,48%  #3
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 48%,48% #2
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 40%,55% #4
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 48%,55% #5
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 56%,55% #6
-- waitForAnimationToEnd
-
+# 132456
+- tapOn: { point: "40%,48%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #1
+- tapOn: { point: "56%,48%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #3
+- tapOn: { point: "48%,48%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #2
+- tapOn: { point: "40%,55%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #4
+- tapOn: { point: "48%,55%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #5
+- tapOn: { point: "56%,55%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #6
 
 - tapOn: 제휴사/이벤트 쿠폰 사용
-
-- tapOn:
-    point: 40%,55%   #4
 - waitForAnimationToEnd
 
-- tapOn:
-    point: 40%,62%  #7
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 56%,48%   #3
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 40%,62%   #7
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 48%,69%  #0
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 56%,48%   #3
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 56%,55%    #6
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 48%,62%   #8
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 40%,62%   #7
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 48%,69%  #0
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 48%,62%   #8
-- waitForAnimationToEnd
-
-- tapOn:
-    point: 56%,48%    #3
-- waitForAnimationToEnd
-
+# 473703687083
+- tapOn: { point: "40%,55%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #4
+- tapOn: { point: "40%,62%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #7
+- tapOn: { point: "56%,48%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #3
+- tapOn: { point: "40%,62%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #7
+- tapOn: { point: "48%,69%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #0
+- tapOn: { point: "56%,48%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #3
+- tapOn: { point: "56%,55%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #6
+- tapOn: { point: "48%,62%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #8
+- tapOn: { point: "40%,62%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #7
+- tapOn: { point: "48%,69%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #0
+- tapOn: { point: "48%,62%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #8
+- tapOn: { point: "56%,48%", retryTapIfNoChange: true, waitToSettleTimeoutMs: 400 }  #3
 
 - tapOn: 확인
 - tapOn: 발급안함
 - tapOn: 주문 완료
-

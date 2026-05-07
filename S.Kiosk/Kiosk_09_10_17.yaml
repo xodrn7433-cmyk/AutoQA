@@ -15,9 +15,9 @@ appId: com.banaple.foodproapp.banapresso
 - tapOn: 테이크아웃
 - assertVisible: "1,800원"
 
+- tapOn: 추천메뉴
 - tapOn: 일시품절
 - tapOn: 확인
-
 
 
 

@@ -1,5 +1,13 @@
 appId: com.banaple.foodproapp.banapresso
 ---
+
+
+- scrollUntilVisible:
+    element:
+      text: "상품"
+    direction: DOWN
+    timeout: 15000
+
 - tapOn: 상품
 - tapOn: 1만원권 바나프레소 상품권
 - tapOn: 확인
@@ -12,4 +20,6 @@ appId: com.banaple.foodproapp.banapresso
     text: "이전 화면"
 - tapOn:
       id: btn_delete
+
+
 

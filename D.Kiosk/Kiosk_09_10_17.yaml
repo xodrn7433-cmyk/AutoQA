@@ -18,11 +18,6 @@ appId: com.banaple.foodproapp.banapresso
 
 - assertVisible: "2,500원"
 
-- tapOn:
-      id: image_menu
-      index: 5
-
-- tapOn: 확인
 
 
 

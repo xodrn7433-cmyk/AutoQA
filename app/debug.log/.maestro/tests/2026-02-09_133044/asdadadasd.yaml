@@ -1,0 +1,17 @@
+- tapOn: 기본
+- tapOn:
+    id: image_option_icon
+    index: 4
+- tapOn:
+    id: image_option_icon
+    index: 1
+- tapOn: 기본
+- tapOn:
+    id: icon_check
+- tapOn:
+    id: image_option_icon
+    index: 2
+- tapOn:
+    id: editor
+    index: 1
+- tapOn: 적용 가능한 쿠폰 사용

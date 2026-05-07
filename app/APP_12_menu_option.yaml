@@ -17,3 +17,21 @@ appId: com.banaple.foodproapp.banapresso
 
 # ✅ 샷추가 적용 후 금액 검증 (핵심)
 - assertVisible: "5,400원"
+
+- tapOn:
+    id: image_option_icon
+    index: 1
+- assertVisible: "바나리카노"
+- assertVisible: "8,000원"
+
+
+- tapOn:
+    id: image_option_icon
+    index: 4
+- assertVisible: "시그니처 바나리카노"
+- assertVisible: "8,200원"
+
+- tapOn: 기본
+- tapOn:
+    id: image_option_icon
+    index: 2

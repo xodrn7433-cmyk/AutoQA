@@ -1,18 +1,15 @@
 appId: com.banaple.foodproapp.banapresso
 ---
-# 아래로 충분히 스크롤 (3번 + 이동거리 큼)
+- scrollUntilVisible:
+        element:
+              text: "30,000원"
+        direction: DOWN
+        timeout: 10000
 
-- swipe:
-      start: 50%, 80%
-      end: 50%, 35%
-      duration: 700
-- waitForAnimationToEnd
+- assertVisible: "30,000원"
 
-
-# 옵션 선택(치즈케이크)
 - tapOn:
-      id: card_image
-      index: 6
+          id: image_thumbnail
+          index: 3
 
-# 팝업 확인
 - tapOn: "확인"
